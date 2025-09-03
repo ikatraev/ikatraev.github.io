@@ -30,6 +30,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Generate favicon.ico from SVG
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick librsvg2-bin
+          rsvg-convert -w 512 -h 512 web/assets/favicon.svg > web/assets/favicon-512.png
+          convert web/assets/favicon-512.png -define icon:auto-resize=16,32,48,64,128 web/favicon.ico
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
