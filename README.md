@@ -11,13 +11,7 @@ This repository hosts my personal website, built with MkDocs and deployed via Gi
 Prerequisites:
 * python CLI
   ```shell
-  brew install python3
-  brew install pipx
-  ```
-  
-* mkdocs CLI 
-  ```shell
-  brew install mkdocs
+  brew install python3 pipx inkscape imagemagick mkdocs
   ```
   
 * Create a virtual environment:
@@ -25,6 +19,7 @@ Prerequisites:
   python -m venv venv
   source venv/bin/activate 
   pip install mkdocs-material
+  pip install mkdocs-mermaid2-plugin
   ```
 
 
@@ -40,7 +35,6 @@ Then open http://127.0.0.1:8000
 
 Convert the SVG favicon to ICO and place it into docs/assets/:
 ```shell
-brew install inkscape imagemagick
 mkdir -p docs/assets
 
 # Rasterize to a large PNG first for fidelity
