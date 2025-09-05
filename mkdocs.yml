@@ -1,0 +1,8 @@
+site_name: Igor Katrayev
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+
+nav:
+  - $: index.md

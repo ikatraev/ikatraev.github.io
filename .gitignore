@@ -1,6 +1,9 @@
 .bundle/
 _site/
 vendor/
+venv/
+site/
+.DS_Store
 
 # Created by .ignore support plugin (hsz.mobi)
 ### NetBeans template
