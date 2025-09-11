@@ -1,5 +1,10 @@
 site_name: Igor Katrayev
 
+nav:
+  - :>: index.md
+  - Resume: resume.md
+  - Print Friendly: /print_page/
+
 theme:
   name: material
   favicon: assets/favicon.ico
@@ -15,10 +20,18 @@ theme:
 
 plugins:
   - search
+  - print-site
   - mermaid2
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -28,11 +41,3 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-nav:
-  - Me: index.md
