@@ -20,7 +20,6 @@ theme:
 
 plugins:
   - search
-  - print-site
   - mermaid2
 
 markdown_extensions:
