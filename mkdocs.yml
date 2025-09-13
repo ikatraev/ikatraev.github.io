@@ -23,6 +23,9 @@ plugins:
   - mermaid2
   - print-site
 
+extra_javascript:
+  - https://js.stripe.com/v3/buy-button.js
+
 markdown_extensions:
   - attr_list
   - admonition

@@ -42,3 +42,7 @@ If you find these projects helpful, please consider supporting my work:
 - 📘 [Facebook: ikatraev](https://facebook.com/ikatraev)
 
 Your encouragement helps me keep these tools polished, well-documented, and available for everyone. Thank you!
+
+<stripe-buy-button
+buy-button-id="buy_btn_1S72usIIU2oMuRpm6a7uSbsn"
+publishable-key="pk_live_51Re2htIIU2oMuRpmWXNb9MteJirixKThlsTqm2VYpvFJ7H9or2KTifcbMoqTYVYE6ELmP5XibiEM2ic0q8ZAgpGS0013mH2LbS" />
