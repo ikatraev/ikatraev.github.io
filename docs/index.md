@@ -3,9 +3,9 @@ layout: home
 title: "Igor Katrayev"
 ---
 
-Hi, I’m Igor Katrayev—a passionate software engineer with 20+ years of experience building robust backend services, data systems, and developer tooling. I care deeply about clear architecture, evolutionary data modeling, performance, and making complex systems approachable and dependable.
+Hi, I’m Igor Katrayev. With more than 20 years as a software engineer, I focus on building resilient backend services, scalable data systems, and effective developer tools. My dedication to clear architecture, evolutionary data modeling, and system performance ensures that even the most complex systems remain approachable and reliable.
 
-Family and community keep me grounded, and open source is how I give back. I maintain practical tools and examples that help teams ship faster with confidence.
+Outside of work, family and community are my foundation. I’m committed to giving back through open source by maintaining useful tools and examples that empower teams to ship better software, faster.
 
 ## Projects I curate under [org-metalib](https://github.com/org-metalib)
 
