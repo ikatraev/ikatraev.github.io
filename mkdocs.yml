@@ -3,7 +3,7 @@ site_name: Igor Katrayev
 nav:
   - :>: index.md
   - Resume: resume.md
-  - Print Friendly: print/
+  - Print Friendly: /print_page/
 
 theme:
   name: material
