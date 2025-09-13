@@ -20,6 +20,7 @@ Prerequisites:
   source venv/bin/activate 
   pip install mkdocs-material
   pip install mkdocs-mermaid2-plugin
+  pip install mkdocs-print-site-plugin
   ```
 
 
